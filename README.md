@@ -4,6 +4,8 @@
 Der Mod »mesecons_blockwires« ist eine Ergänzung zum Mod-Paket »mesecons« (http://mesecons.net/ - siehe weiter unten). Ein Großteil des Quellcodes basiert dabei auf »mesecons_wires«.
 Der Mod fügt »mesecons« Blöcke hinzu, die wie normale Blöcke aussehen (zum Beispiel »dirt_with_grass«), aber das Signal von Schaltern, Trittplatten etc. weiterleiten.
 
+<img src="Screenshot.png">
+
 Vorteile:
 Man kann eleganter bauen, da keine offenen Leitungen zu sehen sind.
 
@@ -19,7 +21,7 @@ Der Mod kann leicht in der init.lua-Datei mit weiteren Blöcken den eigenen Bed�
 This mod adds new wired blocks - looking like normale blocks - to the mod »mesecons«.
 ## [download](https://github.com/mmmsued/mesecons_blockwires)
 
-<img src="Screenshot.png">
+
 
 
     ########################################################################
