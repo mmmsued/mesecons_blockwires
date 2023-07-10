@@ -2,7 +2,7 @@
 [Mesecon Blockwire Mod](https://github.com/mmmsued/mesecons_blockwires)
 
 Der Mod »mesecons_blockwires« ist eine Ergänzung zum Mod-Paket »mesecons« (http://mesecons.net/ - siehe weiter unten). Ein Großteil des Quellcodes basiert dabei auf »mesecons_wires«.
-Der Mod fügt »mesecons« Blöcke hinzu, die wie normale Blöcke aussehen (zum Beispiel »dirt_with_grass«), aber das Signal von Schaltern, Trittplatten etc. weiterleiten.
+Der Mod fügt »mesecons« Blöcke hinzu, die wie normale Blöcke aussehen (zum Beispiel »dirt_with_grass«), aber das Signal von Schaltern, Trittplatten etc. in alle Richtungen weiterleiten.
 
 <img src="Screenshot.png">
 
