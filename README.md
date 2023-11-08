@@ -4,13 +4,13 @@
 Der Mod »mesecons_blockwires« ist eine Ergänzung zum Mod-Paket »mesecons« (http://mesecons.net/ - siehe weiter unten). Ein Großteil des Quellcodes basiert dabei auf »mesecons_wires«.
 Der Mod fügt »mesecons« Blöcke hinzu, die wie normale Blöcke aussehen (zum Beispiel »dirt_with_grass«), aber das Signal von Schaltern, Trittplatten etc. in alle Richtungen weiterleiten.
 
-<img src="Screenshot.png">
+<img src="screenshot.png">
 
 Vorteile:
 Man kann eleganter bauen, da keine offenen Leitungen zu sehen sind.
 
 Nachteile:
-Man kann den Blöcken von außen nicht mehr direkt ansehen, ob sie leitend sind. Dadurch kann es zu ungewollten Verbindungen komme. Der einzige Weg, einen »blockwire« von einem normalen Block zu unterscheiden, besteht darin, F5 zu drücken und mit dem Mauszeiger auf das Objekt zu zeigen.
+Man kann den Blöcken von außen nicht mehr direkt ansehen, ob sie leitend sind. Dadurch kann es zu ungewollten Verbindungen komme. Der einzige Weg, einen »blockwire« von einem normalen Block zu unterscheiden, besteht darin, F5 zu drücken und mit dem Mauszeiger auf das Objekt zu zeigen, um so an den Namen zu kommen.
 
 Hinweis:
 Die Blöcke haben aktuell keine Rezepte, sind daher nur im Creative Mode im Inventar verfügbar (oder über /giveme - Beispiel: /giveme mesecons_blockwires:wire_glass_off).
