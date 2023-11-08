@@ -67,7 +67,7 @@ minetest.register_node("mesecons_blockwires:wire_" .. name .. "_off", {
 	inventory_image = "blockwire_" .. name .. ".png^blockwire_mese.png",
 	drop = "mesecons_blockwires:wire_" .. name .. "_off",
 	--selection_box = selectionbox,
-	groups = {cracky=3},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	sounds = soundsConfig(description),
 	mesecons = {conductor = {
 		state = mesecon.state.off,
@@ -83,7 +83,7 @@ minetest.register_node("mesecons_blockwires:wire_" .. name .. "_on", {
 	tiles = tilesConfig(name),
 	drop = "mesecons_blockwires:wire_" .. name .. "_on",
 	--selection_box = selectionbox,
-	groups = {cracky=3, not_in_creative_inventory = 1},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3, not_in_creative_inventory = 1},
 	sounds = soundsConfig(description),
 	mesecons = {conductor = {
 		state = mesecon.state.on,
@@ -149,7 +149,7 @@ minetest.register_node("mesecons_blockwires:wire_" .. name .. "_off", {
 	tiles = {"blockwire_" .. name .. ".png"},
 	inventory_image = "blockwire_" .. name .. ".png^blockwire_mese.png",
 	paramtype = "light",
-	groups = {snappy = 3, flammable = 2, leaves = 1},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3, snappy = 3, flammable = 2, leaves = 1},
 	sounds = default.node_sound_leaves_defaults(),
 	mesecons = {conductor = {
 		state = mesecon.state.off,
@@ -167,7 +167,7 @@ minetest.register_node("mesecons_blockwires:wire_" .. name .. "_on", {
 	tiles = {"blockwire_" .. name .. ".png"},
 	inventory_image = "blockwire_" .. name .. ".png^blockwire_mese.png",
 	paramtype = "light",
-	groups = {snappy = 3, flammable = 2, leaves = 1, not_in_creative_inventory = 1},
+	groups = {cracky = 3, oddly_breakable_by_hand = 3, snappy = 3, flammable = 2, leaves = 1, not_in_creative_inventory = 1},
 	sounds = default.node_sound_leaves_defaults(),
 	mesecons = {conductor = {
 		state = mesecon.state.on,
