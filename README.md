@@ -1,25 +1,24 @@
-# Mesecon Blockwire
-[Mesecon Blockwire Mod](https://github.com/mmmsued/mesecons_blockwires)
+# Mesecons Blockwire
 
-Der Mod »mesecons_blockwires« ist eine Ergänzung zum Mod-Paket »mesecons« (http://mesecons.net/ - siehe weiter unten). Ein Großteil des Quellcodes basiert dabei auf »mesecons_wires«.
-Der Mod fügt »mesecons« Blöcke hinzu, die wie normale Blöcke aussehen (zum Beispiel »dirt_with_grass«), aber das Signal von Schaltern, Trittplatten etc. in alle Richtungen weiterleiten.
+
+**Description:** The mod »mesecons_blockwires« is an extension to the mod package »mesecons« (http://mesecons.net/ - see below). It adds blocks, which look like default nodes (for example "dirt_with_grass") but pass the signal from switches, treadplates, etc. in all directions. So you can build more elegantly because there are no open wires to see.
 
 <img src="screenshot.png">
 
-Vorteile:
-Man kann eleganter bauen, da keine offenen Leitungen zu sehen sind.
+**Use:** Search in the inventory for »blockwires« (inventory image with four yellow squares). Create for example a wall and add a light block and a switch to your structure. Hit the switch to see what happens ...
 
-Nachteile:
-Man kann den Blöcken von außen nicht mehr direkt ansehen, ob sie leitend sind. Dadurch kann es zu ungewollten Verbindungen komme. Der einzige Weg, einen »blockwire« von einem normalen Block zu unterscheiden, besteht darin, F5 zu drücken und mit dem Mauszeiger auf das Objekt zu zeigen, um so an den Namen zu kommen.
+**Install**: Unzip the downloaded folder and rename it to »mesecons_blockwires« (if necessary). Copy the folder into your »luanti/mods« folder.
 
-Hinweis:
-Die Blöcke haben aktuell keine Rezepte, sind daher nur im Creative Mode im Inventar verfügbar (oder über /giveme - Beispiel: /giveme mesecons_blockwires:wire_glass_off).
+**Depends:** This mod requires »default« (part of »[minetest_game](https://content.luanti.org/packages/Minetest/minetest_game/)«) and »[mesecons](https://content.luanti.org/packages/Jeija/mesecons/)«.  
 
-Weitere Böcke:
-Der Mod kann leicht in der init.lua-Datei mit weiteren Blöcken den eigenen Bedürfnissen angepasst werden.
 
-This mod adds new wired blocks - looking like normale blocks - to the mod »mesecons«.
-## [download mesecons_blockwires](https://github.com/mmmsued/mesecons_blockwires)
+**Known Issues:** There are currently no recipes for the blocks. Therefore, they can only be accessed in creative mode or with »giveme« (example: /giveme mesecons_blockwires:wire_glass_off). You can not see directly from the outside whether the blocks are conducting. This can lead to unwanted connections. The only way to distinguish a blockwire from a regular block is to press F5 and hover over the object to get its name.
+
+**License:**  
+Author: This mod was made by [Norbert Thien, multimediamobil – Region Süd (mmmsued)](https://minetest-modding.weebly.com/), 2024  
+Code: The LGPLv3 applies to all code in this project.  
+Media: The CC-BY-SA-3.0 license applies to textures and any other content in this project which is not source code.  
+Notice: This mode uses concepts and code from the mod »mesecons« and textures from the mod »default« (»minetest_game«).
 
 
 
