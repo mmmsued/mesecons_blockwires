@@ -1,7 +1,7 @@
 # Mesecons Blockwire
 
 
-**Description:** The mod »mesecons_blockwires« is an extension to the mod package »mesecons« (http://mesecons.net/ - see below). It adds blocks, which look like default nodes (for example "dirt_with_grass") but pass the signal from switches, treadplates, etc. in all directions. So you can build more elegantly because there are no open wires to see.
+**Description:** The mod »mesecons_blockwires« is an extension to the mod package »mesecons« (http://mesecons.net/ - see below). It adds blocks, which look like default nodes (for example »dirt_with_grass«) but pass the signal from switches, treadplates, etc. in all directions. So you can build more elegantly because there are no open wires to see.
 
 <img src="screenshot.png">
 
